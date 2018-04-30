@@ -1,0 +1,7 @@
+Remote git repository
+Two branches master and integration
+Jenkinsfile and Dockerfile in repo
+
+For integration, do a docker build
+On PR from integration to master, docker build, docker run and some tests on that running container.
+For master run a container you have created earlier
